@@ -13,7 +13,7 @@
  Google as part of the polymer project is also subject to an additional IP
  rights grant found at http://polymer.github.io/PATENTS.txt
 */
-(function(){if(void 0!==window.Reflect&&void 0!==window.customElements&&!window.customElements.polyfillWrapFlushCallback){var BuiltInHTMLElement=HTMLElement;window.HTMLElement=function HTMLElement(){return Reflect.construct(BuiltInHTMLElement,[],this.constructor)};HTMLElement.prototype=BuiltInHTMLElement.prototype;HTMLElement.prototype.constructor=HTMLElement;Object.setPrototypeOf(HTMLElement,BuiltInHTMLElement)}})();
+(function(){if(void 0!==window.Reflect&&void 0!==window.customElements&&!window.customElements.polyfillWrapFlushCallback){var BuiltInHTMLElement=HTMLElement;window.HTMLElement=function(){return Reflect.construct(BuiltInHTMLElement,[],this.constructor)};HTMLElement.prototype=BuiltInHTMLElement.prototype;HTMLElement.prototype.constructor=HTMLElement;Object.setPrototypeOf(HTMLElement,BuiltInHTMLElement)}})();
 (function(){/*
 
  Copyright The Closure Library Authors.
